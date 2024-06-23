@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---Font awesome--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style/styles.css">
+    <title>Personal Portfolio Website</title>
+</head>
+<body>
+    <!--Header design-->
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#about" >About</a>
+            <a href="#services" >Services</a>
+            <a href="#portfolio" >Portfolio</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+    </header>
+
+    <!--Home section-->
+
+    <section><div class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Salman Siddiqui</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>As a Software Engineer with 1.2 years of experience, I specialize in backend development using Java, Hibernate, and Spring Boot. My expertise includes designing and implementing robust APIs, optimizing database interactions, and ensuring efficient data management and many more...</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/salman-0172572aa/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="resume/Salman_resume.pdf" download="Your_resmue.pdf" class="btn">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/profile.png" alt="">
+        </div>
+
+
+    </div></section>
+
+     <!--About section-->
+
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/profile1.jpg" alt="">
+        </div>
+
+        <div class="abount-content">
+            <h2 class="heading">About<span> Me</span></h2>
+            <h2>Software Engineer</h2>
+            <p>I am a dedicated Software Engineer with 1.2 years of experience specializing in backend development. My expertise lies in Java, Hibernate, and Spring Boot, which I have used to build robust and scalable applications. I excel in creating efficient, maintainable code and have a strong understanding of object-oriented programming. My problem-solving skills and attention to detail ensure high-quality software solutions. I am passionate about continuous learning and staying updated with industry trends to deliver innovative solutions.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+     </section>
+
+     <!--Service section-->
+
+     <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>I provide comprehensive web development services, specializing in creating responsive, user-friendly websites. With expertise in HTML, CSS, JavaScript, and modern frameworks, I ensure high-quality, efficient web solutions. My focus is on delivering tailored, scalable websites that meet your business needs.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>App Development</h3>
+                <p>I offer comprehensive app development services tailored to meet your business needs. With a focus on user experience and functionality, I specialize in creating responsive and intuitive mobile applications .I ensure each app is crafted with precision and meets the highest standards of quality and performance.
+
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>Backend Development</h3>
+                <p>I specialize in backend development using Java and Spring Boot to create efficient and scalable solutions. With a keen focus on performance and reliability, I deliver robust APIs and microservices tailored to meet business needs. My expertise ensures high-quality code that adheres to best practices.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+     </section>
+
+
+     <!--Portfolio section-->
+
+     <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/book.jpg" alr="">
+                <div class="portfolio-layer">
+                    <h4>Book store</h4>
+                    <p>Our bookstore project leverages Java for backend logic, Hibernate for seamless database operations, and Spring Boot for rapid development of RESTful APIs. Thymeleaf is used for dynamic frontend rendering, ensuring a smooth user experience with interactive web interfaces.</p>
+                    <a href="https://github.com/salmansiddiqui75/Book-store"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/contact.jpg" alr="">
+                <div class="portfolio-layer">
+                    <h4>Contact Management</h4>
+                    <p>I developed a Smart Contact Management project leveraging Java, Hibernate, Spring Boot, and Thymeleaf. With integrated Spring Security and deployment on Tomcat, it ensures secure access and management of contacts with a user-friendly interface, facilitating efficient CRUD operations and authentication mechanisms for enhanced data privacy and usability</p>
+                    <a href="https://github.com/salmansiddiqui75/SmartContactManager"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/hotel.jpg" alr="">
+                <div class="portfolio-layer">
+                    <h4>Hotel Rating Service</h4>
+                    <p>Our hotel rating service project utilizes Java, Spring Boot, and Spring Data JPA to allow users to rate hotels. Implemented as microservices, it integrates three distinct databases—SQL, MongoDB, and PostgreSQL—ensuring flexibility and scalability. This architecture supports diverse data storage needs while maintaining efficient data management.</p>
+                    <a href="https://github.com/salmansiddiqui75/HotelRatingServices"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/bank.jpg" alr="">
+                <div class="portfolio-layer">
+                    <h4>Bank Management</h4>
+                    <p>Our bank management project leverages Java for backend logic, JDBC for database connectivity, and JSP for dynamic web page generation. HTML and CSS are utilized for creating a user-friendly interface, ensuring a seamless banking experience with robust security and functionality.</p>
+                    <a href="https://github.com/salmansiddiqui75/Projects/tree/main/bankApp/WebContent"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/portfolio.png" alr="">
+                <div class="portfolio-layer">
+                    <h4>Portfolio</h4>
+                    <p>Explore my portfolio crafted with HTML, CSS, and JavaScript, showcasing dynamic and responsive web designs. Each project demonstrates my proficiency in frontend development, delivering intuitive user interfaces and interactive experiences.</p>
+                    <a href="https://github.com/salmansiddiqui75/SmartContactManager"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/calculator.jpg" alr="">
+                <div class="portfolio-layer">
+                    <h4>Calculator</h4>
+                    <p>This calculator application utilizes Java's AWT and Swing libraries for a user-friendly interface and functionality. It offers standard arithmetic operations with a responsive GUI, providing a seamless user experience. Designed for clarity and ease of use, it showcases Java's capabilities in graphical application development.                    </p>
+                    <a href="https://github.com/salmansiddiqui75/Projects/tree/main/calculator"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!--Contact section-->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span> Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject"> 
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    
+<!--Footer section-->
+
+<footer class="footer">
+    <div class="footer-tex">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, libero!</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+</footer>
+
+    <!--Scroll Reveal Js--->>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!---Typed Js-->>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Main JS --->
+    <script src="JS/main.js"></script>
+</body>
+</html>
